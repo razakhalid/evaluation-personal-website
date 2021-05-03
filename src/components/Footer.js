@@ -12,32 +12,44 @@ const Footer = () => {
           <div class="media-links">
             <div class="col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
               <div class="facebook">
-                <a href="#">
-                  <img class="img-responsive" src={facebook} />
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src={facebook}
+                    alt="facebook logo"
+                  />
                 </a>
               </div>
             </div>
 
             <div class="col-sm-1 col-md-1">
               <div class="linkedin">
-                <a href="#">
-                  <img class="img-responsive" src={linkedin} />
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src={linkedin}
+                    alt="linkedin logo"
+                  />
                 </a>
               </div>
             </div>
 
             <div class="col-sm-1 col-md-1">
               <div class="pinterest">
-                <a href="#">
-                  <img class="img-responsive" src={pinterest} />
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src={pinterest}
+                    alt="pinterest logo"
+                  />
                 </a>
               </div>
             </div>
 
             <div class="col-sm-1 col-md-1">
               <div class="email-icon">
-                <a href="#">
-                  <img class="img-responsive" src={email} />
+                <a href="">
+                  <img class="img-responsive" src={email} alt="email logo" />
                 </a>
               </div>
             </div>
@@ -70,7 +82,7 @@ const Footer = () => {
           <div class="col-sm-2 col-md-2 text-center">
             <div class="home-footer">
               <h4>
-                <a href="#">Home</a>
+                <a href="">Home</a>
               </h4>
             </div>
           </div>
@@ -78,20 +90,20 @@ const Footer = () => {
           <div class="col-sm-2 col-md-2 text-center">
             <div class="portfolio-footer">
               <h4>
-                <a href="#">Portfolio</a>
+                <a href="#projects">Portfolio</a>
               </h4>
               <ul>
                 <li>
-                  <a href="#">Project1</a>
+                  <a href="#projects">Project1</a>
                 </li>
                 <li>
-                  <a href="#">Project2</a>
+                  <a href="#projects">Project2</a>
                 </li>
                 <li>
-                  <a href="#">Project3</a>
+                  <a href="projects">Project3</a>
                 </li>
                 <li>
-                  <a href="#">See All</a>
+                  <a href="projects">See All</a>
                 </li>
               </ul>
             </div>
@@ -100,11 +112,11 @@ const Footer = () => {
           <div class="col-sm-2 col-md-2 text-center">
             <div class="resume-footer">
               <h4>
-                <a href="#">Resume</a>
+                <a href="">Resume</a>
               </h4>
               <ul>
                 <li>
-                  <a href="#">Download</a>
+                  <a href="">Download</a>
                 </li>
               </ul>
             </div>
@@ -113,7 +125,7 @@ const Footer = () => {
           <div class="col-sm-2 col-md-2 text-center">
             <div class="contact-footer">
               <h4>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </h4>
             </div>
           </div>

@@ -17,11 +17,9 @@ const Main = () => {
         <div className="row text-center">
           <div className="banner-buttons">
             <div className="col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5">
-              {/* <HashLink to="/#about"> */}
               <a className="btn btn-default btn-border" href="#about">
                 Info
               </a>
-              {/* </HashLink> */}
             </div>
 
             <div className="col-sm-1 col-md-1">

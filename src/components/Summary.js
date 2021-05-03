@@ -1,4 +1,8 @@
 import React from "react";
+import developerdesign from "./../images/developerdesign.svg";
+import responsivedesign from "./../images/responsivedesign.svg";
+import innovativesolutions from "./../images/innovativesolutions.svg";
+import passion from "./../images/passion.svg";
 
 const Summary = () => {
   return (
@@ -8,11 +12,7 @@ const Summary = () => {
           <div className="development-summary">
             <div className="col-sm-1 col-md-1">
               <div className="development-img">
-                <img
-                  className="img-responsive"
-                  src="./images/developerdesign.svg"
-                  alt=""
-                />
+                <img className="img-responsive" src={developerdesign} alt="" />
               </div>
             </div>
 
@@ -31,11 +31,7 @@ const Summary = () => {
           <div className="responsive-summary">
             <div className="col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
               <div className="responsive-img">
-                <img
-                  className="img-responsive"
-                  src="./images/responsivedesign.svg"
-                  alt=""
-                />
+                <img className="img-responsive" src={responsivedesign} alt="" />
               </div>
             </div>
 
@@ -59,7 +55,7 @@ const Summary = () => {
               <div className="idea-img">
                 <img
                   className="img-responsive"
-                  src="./images/innovativesolutions.svg"
+                  src={innovativesolutions}
                   alt=""
                 />
               </div>
@@ -80,11 +76,7 @@ const Summary = () => {
 
           <div className="passion-summary">
             <div className="col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
-              <img
-                className="img-responsive"
-                src="./images/passion.svg"
-                alt=""
-              />
+              <img className="img-responsive" src={passion} alt="" />
             </div>
 
             <div className="col-sm-4 col-md-4">
@@ -93,7 +85,7 @@ const Summary = () => {
                 <p>
                   With my profound interest and commitment to my field of study,
                   my projects rarely go unfinished and my problems are never
-                  left unresolved.{" "}
+                  left unresolved.
                 </p>
               </div>
             </div>
