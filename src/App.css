@@ -340,6 +340,10 @@ textarea {
 }
 
 @media (max-width: 600px) {
+  .entry-banner {
+    margin-top: 30px;
+  }
+
   .primary-nav {
     display: flex;
     /* border: 1px solid blue; */
@@ -351,6 +355,10 @@ textarea {
 
   .project {
     margin-bottom: 100px;
+  }
+
+  .project-more-info {
+    margin: 20px 0;
   }
 
   .contact {
@@ -367,6 +375,10 @@ textarea {
   }
 
   .footer {
+    text-align: center;
+  }
+
+  .personal-contact h4 {
     text-align: center;
   }
 

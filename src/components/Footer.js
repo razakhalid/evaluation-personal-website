@@ -6,15 +6,15 @@ import email from "./../images/email.svg";
 
 const Footer = () => {
   return (
-    <div class="footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="media-links">
-            <div class="col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
-              <div class="social-media facebook">
+    <div className="footer">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="media-links">
+            <div className="col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
+              <div className="social-media facebook">
                 <a href="">
                   <img
-                    class="img-responsive"
+                    className="img-responsive"
                     src={facebook}
                     alt="facebook logo"
                   />
@@ -22,11 +22,11 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class="col-sm-1 col-md-1">
-              <div class="social-media linkedin">
+            <div className="col-sm-1 col-md-1">
+              <div className="social-media linkedin">
                 <a href="">
                   <img
-                    class="img-responsive"
+                    className="img-responsive"
                     src={linkedin}
                     alt="linkedin logo"
                   />
@@ -34,11 +34,11 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class="col-sm-1 col-md-1">
-              <div class="social-media pinterest">
+            <div className="col-sm-1 col-md-1">
+              <div className="social-media pinterest">
                 <a href="">
                   <img
-                    class="img-responsive"
+                    className="img-responsive"
                     src={pinterest}
                     alt="pinterest logo"
                   />
@@ -46,49 +46,53 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class="col-sm-1 col-md-1">
-              <div class="social-media email-icon">
+            <div className="col-sm-1 col-md-1">
+              <div className="email-icon">
                 <a href="">
-                  <img class="img-responsive" src={email} alt="email logo" />
+                  <img
+                    className="img-responsive"
+                    src={email}
+                    alt="email logo"
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-sm-6 col-md-6 text-right">
-            <div class="personal-contact phone">
+        <div className="row">
+          <div className="col-sm-6 col-md-6 text-right">
+            <div className="personal-contact phone">
               <h4>Phone: XXXXXX</h4>
             </div>
           </div>
 
-          <div class="col-sm-6 col-md-6 text-left">
-            <div class="personal-contact email-personal-contact">
+          <div className="col-sm-6 col-md-6 text-left">
+            <div className="personal-contact email-personal-contact">
               <h4>Email: XXXXX@gmail.com</h4>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-sm-4 col-md-4 text-center">
-            <div class="company-information">
+        <div className="row">
+          <div className="col-sm-4 col-md-4 text-center">
+            <div className="company-information">
               <h3>XXXX</h3>
               <h4>Copyright &copy; 2021</h4>
               <h4>NY</h4>
             </div>
           </div>
 
-          <div class="col-sm-2 col-md-2 text-center">
-            <div class="home-footer">
+          <div className="col-sm-2 col-md-2 text-center">
+            <div className="home-footer">
               <h4>
                 <a href="">Home</a>
               </h4>
             </div>
           </div>
 
-          <div class="col-sm-2 col-md-2 text-center">
-            <div class="portfolio-footer">
+          <div className="col-sm-2 col-md-2 text-center">
+            <div className="portfolio-footer">
               <h4>
                 <a href="#projects">Portfolio</a>
               </h4>
@@ -109,8 +113,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-sm-2 col-md-2 text-center">
-            <div class="resume-footer">
+          <div className="col-sm-2 col-md-2 text-center">
+            <div className="resume-footer">
               <h4>
                 <a href="">Resume</a>
               </h4>
@@ -122,8 +126,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-sm-2 col-md-2 text-center">
-            <div class="contact-footer">
+          <div className="col-sm-2 col-md-2 text-center">
+            <div className="contact-footer">
               <h4>
                 <a href="#contact">Contact</a>
               </h4>
