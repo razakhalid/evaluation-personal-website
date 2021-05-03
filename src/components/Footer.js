@@ -11,7 +11,7 @@ const Footer = () => {
         <div class="row">
           <div class="media-links">
             <div class="col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
-              <div class="facebook">
+              <div class="social-media facebook">
                 <a href="">
                   <img
                     class="img-responsive"
@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
 
             <div class="col-sm-1 col-md-1">
-              <div class="linkedin">
+              <div class="social-media linkedin">
                 <a href="">
                   <img
                     class="img-responsive"
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
 
             <div class="col-sm-1 col-md-1">
-              <div class="pinterest">
+              <div class="social-media pinterest">
                 <a href="">
                   <img
                     class="img-responsive"
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
 
             <div class="col-sm-1 col-md-1">
-              <div class="email-icon">
+              <div class="social-media email-icon">
                 <a href="">
                   <img class="img-responsive" src={email} alt="email logo" />
                 </a>

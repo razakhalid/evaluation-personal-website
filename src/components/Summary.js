@@ -9,7 +9,7 @@ const Summary = () => {
     <div className="summary">
       <div className="container-fluid">
         <div className="row">
-          <div className="development-summary">
+          <div className="summary-item development-summary">
             <div className="col-sm-1 col-md-1">
               <div className="development-img">
                 <img className="img-responsive" src={developerdesign} alt="" />
@@ -28,7 +28,7 @@ const Summary = () => {
             </div>
           </div>
 
-          <div className="responsive-summary">
+          <div className="summary-item responsive-summary">
             <div className="col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
               <div className="responsive-img">
                 <img className="img-responsive" src={responsivedesign} alt="" />
@@ -50,7 +50,7 @@ const Summary = () => {
         </div>
 
         <div className="row">
-          <div className="ideas-summary">
+          <div className="summary-item ideas-summary">
             <div className="col-sm-1 col-md-1">
               <div className="idea-img">
                 <img
@@ -74,7 +74,7 @@ const Summary = () => {
             </div>
           </div>
 
-          <div className="passion-summary">
+          <div className="summary-item passion-summary">
             <div className="col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
               <img className="img-responsive" src={passion} alt="" />
             </div>

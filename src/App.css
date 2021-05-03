@@ -17,9 +17,6 @@ html {
 }
 .primary-nav {
   padding-right: 50px;
-  border: 2px solid blue;
-  display: flex;
-  justify-content: space-between;
 }
 .primary-nav li {
   display: inline-block;
@@ -340,4 +337,40 @@ textarea {
 .portfolio-footer a:hover,
 .resume-footer a:hover,
 .contact-footer a:hover {
+}
+
+@media (max-width: 600px) {
+  .primary-nav {
+    display: flex;
+    /* border: 1px solid blue; */
+    padding-right: 0;
+  }
+  .primary-nav li {
+    margin: 0 10px;
+  }
+
+  .project {
+    margin-bottom: 100px;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+
+  .social-media {
+    padding: 20px;
+  }
+
+  .media-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .summary-item {
+    margin-bottom: 50px;
+  }
 }
